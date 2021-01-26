@@ -1,2 +1,3 @@
-# FortyBits  a repository of experiments with Apache Spark
 # FortyBits
+
+a reposiitory of learnings with Apache Spark
