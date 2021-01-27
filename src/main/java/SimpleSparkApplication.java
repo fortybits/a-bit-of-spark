@@ -7,7 +7,10 @@ public class SimpleSparkApplication {
 
     public static void main(String[] args) {
         String logFile = "/Users/naman.nigam/Downloads/spark-3.0.1-bin-hadoop3.2/README.md"; // Should be some file on your system
-        SparkSession spark = SparkSession.builder().appName("Simple Application").getOrCreate();
+        SparkSession spark = SparkSession.builder()
+                .appName("Simple Application")
+                .getOrCreate();
+        spark.sparkContext().setLogLevel("DEBUG");
         Dataset<String> logData = spark.read().textFile(logFile).cache();
 
         long numAs = logData.filter((FilterFunction<String>) s -> s.contains("a")).count();
