@@ -1,0 +1,13 @@
+Field Description Example Value
+IncidentNum Incident number 150561637
+Category Category of incident NON-CRIMINAL
+Descript Description of incident FOUND_PROPERTY
+DayOfWeek Day of week that incident occurred Sunday
+Date Date of incident 6/28/15
+Time Time of incident 23:50
+PdDistrict Police Department District TARAVAL
+Resolution Resolution NONE
+Address Address 1300_Block_of_LA_PLAYA_ST
+X X-coordinate of location -122.5091348
+Y Y-coordinate of location 37.76119777
+PdID Department ID 15056163704013
